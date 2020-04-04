@@ -10,6 +10,6 @@ public class Defeat implements OutputInfo {
 
     @Override
     public String printInfo() {
-        return "Unfortunately, you have no chance, the answer is" + answer + "!";
+        return "Unfortunately, you have no chance, the answer is " + answer + "!";
     }
 }
