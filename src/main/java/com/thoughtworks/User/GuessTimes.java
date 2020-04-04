@@ -11,6 +11,10 @@ public class GuessTimes {
         return times;
     }
 
+    public void addTimes() {
+        ++times;
+    }
+
     public boolean isMaxChanceTimes() {
         return times == 6;
     }
